@@ -2,6 +2,10 @@
 repos/
 */repos/
 
+# Generated data maps — contain internal schema details, keep private
+.data-agent/
+*/.data-agent/
+
 # Local Claude settings
 .claude/settings.local.json
 */.claude/settings.local.json
