@@ -1,11 +1,10 @@
-# Cloned source repos — never commit these
+# Cloned source repos in any agent — never commit these
 repos/
+*/repos/
 
 # Local Claude settings
 .claude/settings.local.json
-
-# Generated data maps — optional: remove these lines if you want to commit maps
-# .data-agent/
+*/.claude/settings.local.json
 
 # OS
 .DS_Store
