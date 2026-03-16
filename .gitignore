@@ -1,0 +1,12 @@
+# Cloned source repos — never commit these
+repos/
+
+# Local Claude settings
+.claude/settings.local.json
+
+# Generated data maps — optional: remove these lines if you want to commit maps
+# .data-agent/
+
+# OS
+.DS_Store
+Thumbs.db
